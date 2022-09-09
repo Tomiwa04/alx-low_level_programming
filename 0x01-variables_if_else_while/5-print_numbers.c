@@ -11,8 +11,8 @@ int main(void)
 
 	for (u = 0; u < 10; u++)
 	{
-	printf("%d", u)
+	printf("%d", u);
 	}
-	printf("\n")
+	printf("\n");
 	return (0);
 }
