@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,10 +14,10 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (j = 'a'; j <= 'f'; j++)
+	for  (j = 'a'; j <= 'f'; j++)
 	{
 		putchar(j);
 	}
-	putchar('/n')
+	putchar('\n');
 	return (0);
 }
