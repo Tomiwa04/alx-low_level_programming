@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
-*main-print the sizeof various types on the computer 
- *Return: 0
- */
+*main-print the sizeof various types on the computer
+*
+*Return: 0 (Success)
+*/
 int main(void)
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
