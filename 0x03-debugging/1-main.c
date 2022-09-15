@@ -20,7 +20,7 @@ int main(void)
 	 * }
 	 */
 
-	printf("indefinite loop avoided \\o/\n");
+	printf("indefinite loop avoided! \\o/\n");
 
 	return (0);
 
