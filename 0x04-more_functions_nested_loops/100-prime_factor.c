@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	long int max, lower, test
+	long int max, lower, test;
 
 	max = 612852475143;
 	lower = 2;
@@ -22,7 +22,7 @@ int main(void)
 		if (max % test == 0)
 		{
 			lower = test;
-			max = max / lower
+			max = max / lower;
 			test = lower + 1;
 		}
 		else
