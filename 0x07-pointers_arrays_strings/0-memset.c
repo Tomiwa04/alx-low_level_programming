@@ -2,7 +2,7 @@
 
 /**
  * _memset - fills memory with a constant byte
- * @s: pointer block of memory to fill
+ * @s: pointer to memory
  * @b: constant byte used to replace
  * @n: number of bytes to replace
  * Description: fills memory with byte b for n byte
