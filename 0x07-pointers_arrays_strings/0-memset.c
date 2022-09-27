@@ -2,12 +2,11 @@
 
 /**
  * _memset - Entry point
- * @s: pointer to memory
+ * @s: pointed destination
  * @b: constant byte
- * @n: number of bytes to replace
- * Return: Always 0 (Success)
+ * @n: bytes
+ * Return: Always 0(Success)
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
