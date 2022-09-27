@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _memset - fills memory with a constant byte
+ * _memset - Entry point
  * @s: pointer to memory
  * @b: constant byte
  * @n: number of bytes to replace
- * Description: fills memery s with byte b for n bytes
  * Return: Always 0 (Success)
  */
 
@@ -15,6 +14,5 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (i = 0; i < n; i++)
 		s[i] = b;
-
 	return (s);
 }
