@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 
 /**
  * sqrt2 - Makes possible to evaluate from 1 to n
@@ -23,7 +23,7 @@ int sqrt2(int a, int b)
  * Return: On success 1.
  * On error: -1 is returned, and errno is set appropriately.
  */
-int_sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	return (sqrt2(n, 1));
 }
