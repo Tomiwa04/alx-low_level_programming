@@ -66,7 +66,7 @@ int main(int argc, char **argv)
 	}
 	if (ex == 0)
 		printf("%i\n", coins);
-	elsee
+	else
 		printf("%s\n", "Error");
 	return (ex);
 }
