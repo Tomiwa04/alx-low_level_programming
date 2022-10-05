@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array - creates an array of chars, and initializes it with
@@ -10,30 +12,19 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *buffer;
-	unsigned int position;
+	unsigned int i;
+	char *s;
 
-	if (size == 0)
-	{
-		return (NULL);
-	}
+	if (size <= 0)
+		return (0);
+	s = malloc(sizeof(char) * size);
 
-	buffer = (cahr *) malloc(size * sizeof(c));
+	if (s == 0)
+		return (0);
+	for (i = 0; i < size; i++)
+		*(s + i) = c;
 
-	if (buffer == 0)
-	{
-		return (NULL);
-	}
+	*(s + i) = '\0';
 
-	else
-	{
-		position = 0;
-		while (position < size)
-		{
-			*(buffer + postion) = c;
-			position++;
-		}
-
-		return (buffer);
-	}
+	return (s);
 }
