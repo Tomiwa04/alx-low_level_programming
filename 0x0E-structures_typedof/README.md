@@ -1,1 +1,1 @@
-Everything structures and typeof
+Everything structures and typeofdef in C
