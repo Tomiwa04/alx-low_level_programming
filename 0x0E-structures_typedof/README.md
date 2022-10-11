@@ -1,0 +1,1 @@
+Everything structures and typeof
